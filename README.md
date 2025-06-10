@@ -54,3 +54,36 @@ Want to try it live? Deploy to Streamlit Cloud or Render — setup guide below.
 ```bash
 git clone https://github.com/pkmantri/ats-resume-scanner.git
 cd ats-resume-scanner
+
+---
+
+2. **Create and Activate a Virtual Environment**
+
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+---
+
+3. **Install Requirements**
+
+```bash
+pip install -r requirements.txt
+
+---
+
+4. **Add Google Gemini API Key**
+Create a .env file in the root folder and add:
+
+```ini
+GOOGLE_API_KEY=your_gemini_api_key_here
+🔑 Get your API key from Google AI Studio
+
+---
+
+▶️ Run the App
+```bash
+streamlit run app.py
