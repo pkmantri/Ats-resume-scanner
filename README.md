@@ -54,32 +54,3 @@ Want to try it live? Deploy to Streamlit Cloud or Render — setup guide below.
 ```bash
 git clone https://github.com/pkmantri/ats-resume-scanner.git
 cd ats-resume-scanner
-
-2.**Install dependencies**
-```bash
-pip install -r requirements.txt
-
-3. **Set up environment variables**
-
-Create a .env file in the root folder:
-```ini
-GOOGLE_API_KEY=your_google_gemini_api_key
-
-4.**Run the App**
-``bash
-streamlit run app.py
-
-
-🧠 AI Prompts in Use
-Resume analysis
-
-Skill extraction
-
-Match percentage
-
-Cover letter writing
-
-🤝 Contributing
-Pull requests are welcome! If you'd like to collaborate or add features like LinkedIn scraping, feedback scoring, or resume editing — feel free to fork and submit a PR
-
-
